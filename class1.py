@@ -1,0 +1,7 @@
+nm = input("Enter your name: ")
+#age = input("Enter your age: ")
+#print(nm,age,)
+age =int (input("Enter your age: "))
+print("After 20 year you are at ", age + 20)
+print(type(nm))
+print(type(age))
