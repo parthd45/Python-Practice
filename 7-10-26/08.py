@@ -1,5 +1,8 @@
 #Accept the senntence and count the vowels in it
 sentence = input("Enter a sentence: ")
 vowels = "aeiouAEIOU"
-vowel_count = sum(1 for char in sentence if char in vowels)
-print("Number of vowels in the sentence:", vowel_count)
+count=0
+for name in sentence:
+    if name in vowels:
+        count+=1     
+print("Number of vowels in the sentenvowel_",count)
