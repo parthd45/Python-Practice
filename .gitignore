@@ -1,0 +1,14 @@
+# Ignore environment credentials
+.env
+.env.*
+
+# Allow example environment file
+!.env.example
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.venv/
